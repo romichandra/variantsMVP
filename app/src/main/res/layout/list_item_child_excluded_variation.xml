@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:layout_height="@dimen/list_item_height">
+
+    <TextView
+        android:id="@+id/list_item_excluded_variation_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        tools:text="Excluded Variant Name" />
+
+    <TextView
+        android:id="@+id/list_item_excluded_variation_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_excluded_variation_name"
+        android:textStyle="italic"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        tools:text="stock" />
+    <TextView
+        android:id="@+id/list_item_excluded_variation_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/list_item_excluded_variation_stock"
+        android:layout_toRightOf="@+id/list_item_excluded_variation_stock"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        android:textStyle="italic"
+        tools:text="price" />
+
+</RelativeLayout>
