@@ -3,7 +3,7 @@ This is a sample solution to an interivew assignment flowed as an android app de
 
 It lets a User to add/customize variants(Crust,Size,Sause,etc.) to an Order and also take care of variant combinations which have to be excluded across the variants (e.g. Cheese Burst Crust won't combine with Small Size)
 
-The Variants (inclusive of variations and the exclusion list) are fetched from a REST service and then parsed up to an expandable recycler view, where the user can customize the order.
+The Variants (inclusive of variations and the exclusion list) are fetched from a RESTful service and then parsed up to an expandable recycler view, where the user can customize the order.
 
 External Libraries used to implement the MVP architecture :
 
