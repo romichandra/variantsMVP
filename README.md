@@ -8,14 +8,13 @@ The Variants (inclusive of variations and the exclusion list) are fetched from a
 External Libraries used to implement the MVP architecture :
 
 /*
+   rxjava 1.x, retrofit 2.x and gson 2.x to process HttpRequests */
 
-rxjava 1.x, retrofit 2.x and gson 2.x to process HttpRequests */
 /*
+   dagger 2.2 for Dependency Injection */
 
-dagger 2.2 for Dependency Injection */
 /*
+   thoughtbot recyclerview */
 
-thoughtbot recyclerview */
 /*
-
-android support library for backward compatabilities */
+   android support library for backward compatabilities */
