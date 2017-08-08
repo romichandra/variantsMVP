@@ -1,5 +1,5 @@
 # variantsMVP
-This is a sample solution to an interivew assignment flowed as an android app demonstrating the MVP Design pattern with a network call and an expandable recyclerview.
+This is a sample solution to an assignment flowed as an android app demonstrating the MVP Design pattern with a network call and an expandable recyclerview.
 
 It lets a User to add/customize variants(Crust,Size,Sause,etc.) to an Order and also take care of variant combinations which have to be excluded across the variants (e.g. Cheese Burst Crust won't combine with Small Size)
 
